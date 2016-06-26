@@ -10,3 +10,4 @@
        - ntpd
        - nagios
        - 
+  command: yum update -y
