@@ -9,5 +9,5 @@
     with_items:
        - ntpd
        - nagios
-       - 
+       - ccze
   command: yum update -y
