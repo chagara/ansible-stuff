@@ -6,7 +6,7 @@
   - name: Install Apache.
    command: yum install --quiet httpd httpd-devel mod_ssl -y
    - name: copy configuration files.
-     command: >
+     command: > # > tells ansible the next few lines and one long string
       cp httpd.conf /etc/httpd/conf/httpd.conf
   - command: >
       cp httpd-vhosts.conf /etc/httpd/conf/httpd-vhosts.conf
