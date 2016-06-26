@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+
+ tasks:
+  - name: Copy all the files needed for deployment.
+   - name: copy configuration files.
+     command: > 
+      cp config /etc/selinux/config
+  - command: >
+      
+  
