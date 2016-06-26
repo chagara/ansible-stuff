@@ -1,3 +1,3 @@
 # ansible-stuff
 
-this is a list of stuff that I learning during learning of ansible.
+this is a list of stuff I learned during my ansible studies
