@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  become: yes
+  
+  tasks:
+  - name: Install all the needed packages
+    yum: name={{ item }} state=present
+    with_items:
+       - ntpd
+       - nagios
+       - 
