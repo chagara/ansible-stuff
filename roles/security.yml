@@ -1,0 +1,12 @@
+---
+ 
+ 
+ - name: Mount /var/tmp to /tmp
+   mount:
+       name: /tmp/
+       src: /var/tmp/
+       fstype: xfs
+       passno: 0
+       dump: 0
+       opts: rw,noexec,nosuid,nodev,bind
+       state: present
