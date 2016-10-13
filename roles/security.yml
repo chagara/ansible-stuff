@@ -10,3 +10,7 @@
        dump: 0
        opts: rw,noexec,nosuid,nodev,bind
        state: present
+       
+ -name: update the system
+  yum: name=* state=latest
+  
