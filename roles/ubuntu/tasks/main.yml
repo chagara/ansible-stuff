@@ -1,0 +1,36 @@
+---
+
+  - name: Install all the apps that I need
+  - apt:
+      name:
+        - git
+        - scribus
+        - postgresql
+        - clementine
+        - simplescreenrecorder
+        - gparted
+        - parted
+        - keepass2
+        - virtualbox
+        - atom
+        - krita
+        - borgbackup
+        - steam
+        - time tracker
+        - zim desktop wiki
+        - stellarium
+        - blender
+        - dia
+        - gimp
+        - inkscape
+        - vim
+        - mumble
+        - audacity
+        - brasero
+        - makeMKV
+        - freeCAD
+        - Ubuntu SDK IDE
+        - filezilla
+        - chromium
+        - veracrypt
+        - 
