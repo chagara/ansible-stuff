@@ -45,4 +45,9 @@
         - nmap
         - nc
         - wireshark
+        - sar
+        - tcpdump
+        - tomboy
+        - fspot
+        - planner
         - 
