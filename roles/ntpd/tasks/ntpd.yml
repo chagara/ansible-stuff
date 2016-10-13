@@ -1,0 +1,10 @@
+### makes sure that NTP is installed.
+--- # tells that the document will me YML.
+- hosts: all # Tells which hosts this playbook applies too.
+  become: yes # tell the playbook to use sudo.
+  tasks: #The things that will be runned.
+  - name: Ensure NTP is installed. # this and the yum: checks to see if the RPM is installed and if not installs it.
+    yum: name=ntp state=present #make sure the "name" is the correct package name. Ansible will not know the difference.
+  - name: Ensure NTP is running. # this last two parts make sure that the service is started and running
+    service: name=ntpd state=started enabled=yes
+    
