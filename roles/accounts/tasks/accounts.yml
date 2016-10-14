@@ -2,9 +2,9 @@
 
 
 
-- name: Create Group ""
-  group: name=
-- name: Creater user ""
-  user: name="" group="" uid="" groups="" expires=""
-- name: Authorized keys ""
-  authorized_key: user="" key="{{ lookup('file',"dirtothekey/.pub') }}"
+  - name: Create Group ""
+    group: name=
+  - name: Creater user ""
+    user: name="" group="" uid="" groups="" expires=""
+  - name: Authorized keys ""
+    authorized_key: user="" key="{{ lookup('file',"dirtothekey/.pub') }}"
